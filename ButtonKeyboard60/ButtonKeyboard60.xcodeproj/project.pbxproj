@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90ED4F751DF35EF6001BF3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED4F741DF35EF6001BF3FB /* AppDelegate.swift */; };
+		90ED4F771DF35EF6001BF3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED4F761DF35EF6001BF3FB /* ViewController.swift */; };
+		90ED4F7A1DF35EF6001BF3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ED4F781DF35EF6001BF3FB /* Main.storyboard */; };
+		90ED4F7C1DF35EF6001BF3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ED4F7B1DF35EF6001BF3FB /* Assets.xcassets */; };
+		90ED4F7F1DF35EF6001BF3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ED4F7D1DF35EF6001BF3FB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90ED4F711DF35EF6001BF3FB /* ButtonKeyboard60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonKeyboard60.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ED4F741DF35EF6001BF3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90ED4F761DF35EF6001BF3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90ED4F791DF35EF6001BF3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90ED4F7B1DF35EF6001BF3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90ED4F7E1DF35EF6001BF3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90ED4F801DF35EF6001BF3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90ED4F6E1DF35EF6001BF3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90ED4F681DF35EF6001BF3FB = {
+			isa = PBXGroup;
+			children = (
+				90ED4F731DF35EF6001BF3FB /* ButtonKeyboard60 */,
+				90ED4F721DF35EF6001BF3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90ED4F721DF35EF6001BF3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90ED4F711DF35EF6001BF3FB /* ButtonKeyboard60.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90ED4F731DF35EF6001BF3FB /* ButtonKeyboard60 */ = {
+			isa = PBXGroup;
+			children = (
+				90ED4F741DF35EF6001BF3FB /* AppDelegate.swift */,
+				90ED4F761DF35EF6001BF3FB /* ViewController.swift */,
+				90ED4F781DF35EF6001BF3FB /* Main.storyboard */,
+				90ED4F7B1DF35EF6001BF3FB /* Assets.xcassets */,
+				90ED4F7D1DF35EF6001BF3FB /* LaunchScreen.storyboard */,
+				90ED4F801DF35EF6001BF3FB /* Info.plist */,
+			);
+			path = ButtonKeyboard60;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90ED4F701DF35EF6001BF3FB /* ButtonKeyboard60 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ED4F831DF35EF6001BF3FB /* Build configuration list for PBXNativeTarget "ButtonKeyboard60" */;
+			buildPhases = (
+				90ED4F6D1DF35EF6001BF3FB /* Sources */,
+				90ED4F6E1DF35EF6001BF3FB /* Frameworks */,
+				90ED4F6F1DF35EF6001BF3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonKeyboard60;
+			productName = ButtonKeyboard60;
+			productReference = 90ED4F711DF35EF6001BF3FB /* ButtonKeyboard60.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90ED4F691DF35EF6001BF3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sam Stone";
+				TargetAttributes = {
+					90ED4F701DF35EF6001BF3FB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90ED4F6C1DF35EF6001BF3FB /* Build configuration list for PBXProject "ButtonKeyboard60" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90ED4F681DF35EF6001BF3FB;
+			productRefGroup = 90ED4F721DF35EF6001BF3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90ED4F701DF35EF6001BF3FB /* ButtonKeyboard60 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90ED4F6F1DF35EF6001BF3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ED4F7F1DF35EF6001BF3FB /* LaunchScreen.storyboard in Resources */,
+				90ED4F7C1DF35EF6001BF3FB /* Assets.xcassets in Resources */,
+				90ED4F7A1DF35EF6001BF3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90ED4F6D1DF35EF6001BF3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ED4F771DF35EF6001BF3FB /* ViewController.swift in Sources */,
+				90ED4F751DF35EF6001BF3FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90ED4F781DF35EF6001BF3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ED4F791DF35EF6001BF3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90ED4F7D1DF35EF6001BF3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ED4F7E1DF35EF6001BF3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90ED4F811DF35EF6001BF3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90ED4F821DF35EF6001BF3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90ED4F841DF35EF6001BF3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonKeyboard60/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Swift60.ButtonKeyboard60;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90ED4F851DF35EF6001BF3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonKeyboard60/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Swift60.ButtonKeyboard60;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90ED4F6C1DF35EF6001BF3FB /* Build configuration list for PBXProject "ButtonKeyboard60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ED4F811DF35EF6001BF3FB /* Debug */,
+				90ED4F821DF35EF6001BF3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ED4F831DF35EF6001BF3FB /* Build configuration list for PBXNativeTarget "ButtonKeyboard60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ED4F841DF35EF6001BF3FB /* Debug */,
+				90ED4F851DF35EF6001BF3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90ED4F691DF35EF6001BF3FB /* Project object */;
+}

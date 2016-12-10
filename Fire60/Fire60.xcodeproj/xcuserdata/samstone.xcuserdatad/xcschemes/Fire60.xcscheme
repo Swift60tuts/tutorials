@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90162E5C1DF497B10048364A"
+               BlueprintIdentifier = "6500A35E1DF840B100EC0F68"
                BuildableName = "Fire60.app"
                BlueprintName = "Fire60"
                ReferencedContainer = "container:Fire60.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6500A3721DF840B200EC0F68"
+               BuildableName = "Fire60Tests.xctest"
+               BlueprintName = "Fire60Tests"
+               ReferencedContainer = "container:Fire60.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6500A37D1DF840B200EC0F68"
+               BuildableName = "Fire60UITests.xctest"
+               BlueprintName = "Fire60UITests"
+               ReferencedContainer = "container:Fire60.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90162E5C1DF497B10048364A"
+            BlueprintIdentifier = "6500A35E1DF840B100EC0F68"
             BuildableName = "Fire60.app"
             BlueprintName = "Fire60"
             ReferencedContainer = "container:Fire60.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90162E5C1DF497B10048364A"
+            BlueprintIdentifier = "6500A35E1DF840B100EC0F68"
             BuildableName = "Fire60.app"
             BlueprintName = "Fire60"
             ReferencedContainer = "container:Fire60.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90162E5C1DF497B10048364A"
+            BlueprintIdentifier = "6500A35E1DF840B100EC0F68"
             BuildableName = "Fire60.app"
             BlueprintName = "Fire60"
             ReferencedContainer = "container:Fire60.xcodeproj">
